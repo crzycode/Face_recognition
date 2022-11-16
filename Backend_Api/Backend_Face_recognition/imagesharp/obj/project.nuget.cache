@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "duzp26nQslysPlxO6HK7P0RN58Th6XUB0RaeHTw8fSbRR614/LWmF/RkLdIQCiaz2zMSEowuxGNdoxA16ZrUYA==",
+  "success": true,
+  "projectFilePath": "D:\\VisualStudioProject\\Face_Recognition_Project\\Backend_Api\\Backend_Face_recognition\\imagesharp\\imagesharp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Beast\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\Beast\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

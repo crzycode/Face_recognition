@@ -1,0 +1,5 @@
+D:\VisualStudioProject\Face_Recognition_Project\Backend_Api\Backend_Face_recognition\imagesharp\obj\Debug\net6.0\imagesharp.csproj.AssemblyReference.cache
+D:\VisualStudioProject\Face_Recognition_Project\Backend_Api\Backend_Face_recognition\imagesharp\obj\Debug\net6.0\imagesharp.GeneratedMSBuildEditorConfig.editorconfig
+D:\VisualStudioProject\Face_Recognition_Project\Backend_Api\Backend_Face_recognition\imagesharp\obj\Debug\net6.0\imagesharp.AssemblyInfoInputs.cache
+D:\VisualStudioProject\Face_Recognition_Project\Backend_Api\Backend_Face_recognition\imagesharp\obj\Debug\net6.0\imagesharp.AssemblyInfo.cs
+D:\VisualStudioProject\Face_Recognition_Project\Backend_Api\Backend_Face_recognition\imagesharp\obj\Debug\net6.0\imagesharp.csproj.CoreCompileInputs.cache

@@ -1,0 +1,85 @@
+.Register_container{
+    height: 90%;
+    max-width: 500px;   
+}
+.Register_center{
+    position: relative;
+    height: 70%;
+    width: 90%;
+    margin: auto;
+    background: #F5F5F5;
+	color: #000;
+	text-align: center;
+	display: inline-block;
+	box-shadow: #ababab 0px 10px 8px -6px;
+   
+}
+.Inner_div{
+    
+    height: 100%;
+    width: 100%;
+    margin: auto;;
+}
+.icon-display {
+    transform: scale(8);
+    color: #ababab;
+ }
+ .form_container{
+    position: relative;
+ 
+    width: 100%;
+    top: 20%;
+    margin: auto;
+
+ }  
+  .example-full-width {
+    width: 100%;
+  }
+  section {
+    display: table;
+  }
+  
+  .example-label {
+    display: table-cell;
+    font-size: 14px;
+    margin-left: 8px;
+    min-width: 120px;
+  }
+  
+  .example-button-row {
+    display: table-cell;
+    width: 490px;
+  }
+  
+  .example-button-row .mat-button-base {
+    margin: 8px 8px 8px 0;
+  }
+  
+  .example-flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .example-button-container {
+    display: flex;
+    justify-content: center;
+    width: 120px;
+  }
+  .Button_size{
+    width: 50%;
+    background:#F5F5F5;
+    
+  }
+  .bordert{
+    border-top: 1px solid #aaa;
+    position: relative;
+  }
+  .bordert:after{
+    content: "Or Connect With";
+    position: absolute;
+    top: -13px;
+    left: 33%;
+    background:#F5F5F5;
+    padding: 0 4px;
+  }

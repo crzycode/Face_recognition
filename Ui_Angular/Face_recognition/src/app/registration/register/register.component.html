@@ -1,0 +1,68 @@
+<div class="Register_container container row d-flex m-auto">
+    <div class="Register_center justify-content-center align-items-center">
+        <div class="container-fluid Inner_div ">
+            <div class="align-items-start ">
+              <mat-icon *ngIf="permission else elseBlock"  class="icon-camera" style="display: flex; color:green; position: absolute">camera_enhance</mat-icon>
+              <ng-template #elseBlock>
+                <mat-icon class="icon-camera" style="display: flex; color:red; position: absolute;">camera_enhance</mat-icon>
+              </ng-template>
+              
+                <div>
+                    <mat-icon class="icon-display">account_circle</mat-icon></div> 
+                    <div  *ngIf="previewImage">
+                      <img class="camera" [src]="previewImage" height="500" width="500">
+                    </div>
+            </div>
+            
+            <div class="align-items-center form_container">
+              
+                <form [formGroup]="userdata" (ngSubmit)="saveuserdata()">
+                    <mat-form-field class="example-full-width"  appearance="outline">
+                        <mat-label>FullName</mat-label>
+                        <input matInput placeholder="Placeholder" formControlName="fullname">
+                        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+                        <mat-hint></mat-hint>
+                      </mat-form-field>
+                      <mat-form-field class="example-full-width"  appearance="outline">
+                        <mat-label>Email </mat-label>
+                        <input matInput placeholder="Placeholder" formControlName="email">
+                        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+                        <mat-hint></mat-hint>
+                      </mat-form-field>
+                      <mat-form-field class="example-full-width"  appearance="outline">
+                        <mat-label>Password</mat-label>
+                        <input type="password" matInput placeholder="Placeholder" formControlName="password">
+                        <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
+                        <mat-hint></mat-hint>
+                      </mat-form-field>
+                     
+                      <button class="Button_size" mat-raised-button>Register</button>
+                      <div class="text-center pt-2 text-muted">Already Have a Account <a routerLink='/login'>Login</a></div>
+                </form>
+
+                  <div>
+                    <div class="mx-1 my-3 py-1 bordert">
+                      <div class="text-center py-2">
+                        <a href="www.facebook.com" target="_blank" class="px-2"><img src="https://img.icons8.com/fluency/48/000000/facebook-new.png" alt="facebook"></a>
+                        <a href="www.google.com" target="_blank" class="px-2"><img src="https://img.icons8.com/color/48/000000/google-logo.png"/></a>
+                        <a href="www.github.com" target="_blank" class="px-2"><img src="https://img.icons8.com/ios-filled/50/000000/github.png"/></a>
+                      </div>
+                    </div>
+                  </div>
+                  
+            </div>
+            
+          
+           
+        </div>
+        
+    </div>
+
+</div>
+<div>
+</div>
+<div *ngIf="stream">
+   <webcam style="position: absolute ;" [trigger]="$trigger" (imageCapture)="snapshot($event)" [imageQuality]="1" [height]="500" [width]="500">i</webcam>
+</div>
+
+
